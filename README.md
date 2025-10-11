@@ -63,16 +63,19 @@ IBM-Z provided a powerful and secure environment for developing and testing the 
 
 
 ## Some Insights from the Jupyter Notebook that we found useful!
-![WhatsApp Image 2025-10-10 at 23 15 20_f0cd609f](https://github.com/user-attachments/assets/d85dc0da-5b77-432d-a2ce-4fd1392857bf)
+![WhatsApp Image 2025-10-11 at 23 19 22_bbc88f2f](https://github.com/user-attachments/assets/24e4c784-837c-47c5-a2f3-0fea1ce85c52)
 
-![WhatsApp Image 2025-10-10 at 22 59 16_3afc26f5](https://github.com/user-attachments/assets/1a023e56-235a-44fa-af9d-a0f7ff228f33)
+![WhatsApp Image 2025-10-11 at 23 19 22_9fa789ef](https://github.com/user-attachments/assets/4f4d0405-634e-46c7-a6ac-cfbac0584aa2)
 
 
+![WhatsApp Image 2025-10-11 at 23 19 21_f3f25677](https://github.com/user-attachments/assets/21dad905-0998-4226-af6f-df6d89591973)
 
-![Screenshot (34)](https://user-images.githubusercontent.com/64836894/134804195-0d430414-deb9-44c3-abe0-541ec1c15a52.png)
-![Screenshot (33)](https://user-images.githubusercontent.com/64836894/134804196-caede5cf-f883-40b9-ae55-6c4abe4ed3a2.png)
-![Screenshot (32)](https://user-images.githubusercontent.com/64836894/134804198-59f9bcf0-125c-4716-b139-ce3ad836502a.png)
-![prediction ](https://user-images.githubusercontent.com/69135317/134804507-2e1637ea-d007-4fc2-836e-3ec0a6635126.png)
+<img width="1919" height="969" alt="Screenshot 2025-10-11 230355 1" src="https://github.com/user-attachments/assets/d8cf949c-6cef-4910-9812-506f6e3e5708" />
+
+![WhatsApp Image 2025-10-11 at 23 17 16_f5128531](https://github.com/user-attachments/assets/e1f2d1d3-0015-472e-a4b5-c230993b0077)
+![WhatsApp Image 2025-10-11 at 23 17 44_401ca9f7](https://github.com/user-attachments/assets/6d30ea5d-08ab-4561-b052-5517a45f767b)
+
+![WhatsApp Image 2025-10-11 at 23 16 26_1969561d](https://github.com/user-attachments/assets/c38a8aa3-00f2-46db-846e-ed4d440e9884)
 
 ## Video Explanation for the project:
 
