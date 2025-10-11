@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Integrity Checker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="landing-bg">
+  <div class="logo-section">
+    <h1>🔐 SENTINEL API - Safe APIs, Happy Users</h1>
+    <p>Scan any API endpoint to ensure it's safe and virus-free.</p>
+  </div>
+
+  <form method="POST" action="{{ url_for('scan') }}">
+    <div class="scan-box">
+      <input type="text" name="url" placeholder="Enter API URL..." required>
+      <button type="submit">Scan</button>
+    </div>
+  </form>
+
+  {% if error %}
+    <p style="color: #ef4444; margin-top: 10px;">{{ error }}</p>
+  {% endif %}
+
+  <footer>© 2025 API Integrity Checker</footer>
+</body>
+</html>
