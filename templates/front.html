@@ -2,26 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>API Integrity Checker</title>
+  <title>Scan Results</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<body class="landing-bg">
-  <div class="logo-section">
-    <h1>🔐 SENTINEL API - Safe APIs, Happy Users</h1>
-    <p>Scan any API endpoint to ensure it's safe and virus-free.</p>
-  </div>
+<body class="dashboard-bg">
+  <div class="dashboard-container">
+    <h1 class="subtitle"> 🛡️ SENTINEL API - URL Safety Analysis</h1>
 
-  <form method="POST" action="{{ url_for('scan') }}">
-    <div class="scan-box">
-      <input type="text" name="url" placeholder="Enter API URL..." required>
-      <button type="submit">Scan</button>
+    {% if data %}
+    <div class="status-bar 
+      {% if data.malicious > 50 %}red
+      {% elif data.malicious > 20 %}blue
+      {% else %}green{% endif %}">
+      {{ data.url }} →
+      {% if data.malicious > 50 %}
+      <br>
+        🚨 Malicious: {{ data.malicious }}%
+      {% elif data.malicious > 20 %}
+      <br>
+        ⚠️ Possibly Unsafe: {{ data.malicious }}%
+      {% else %}
+      <br>
+        ✅ Safe: {{ data.safe }}%
+      {% endif %}
     </div>
-  </form>
 
-  {% if error %}
-    <p style="color: #ef4444; margin-top: 10px;">{{ error }}</p>
-  {% endif %}
+    <div class="charts-container">
+      <div class="chart-box">
+        <canvas id="scanChart" width="260" height="260"></canvas>
+        <div class="legend">URL Safety Breakdown</div>
+      </div>
+    </div>
 
-  <footer>© 2025 API Integrity Checker</footer>
+    <script>
+      const ctx = document.getElementById('scanChart').getContext('2d');
+      const safe = {{ data.safe }};
+      const malicious = {{ data.malicious }};
+
+      new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Safe', 'Malicious'],
+          datasets: [{
+            data: [safe, malicious],
+            backgroundColor: ['#22c55e', '#ef4444'],
+            borderWidth: 0
+          }]
+        },
+        options: {
+          cutout: '0%',
+          plugins: {
+            legend: {
+              labels: { color: 'white' }
+            }
+          }
+        }
+      });
+    </script>
+    {% else %}
+      <p class="subtitle">No data found. Please go back and scan a URL.</p>
+    {% endif %}
+  </div>
 </body>
 </html>
