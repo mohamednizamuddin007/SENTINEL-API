@@ -1,5 +1,5 @@
-# **IBM Z DATATHON**
-# SENTINEL-API
+# **IBM Z DATATHON** 2025
+# PROJECT NAME : SENTINEL-API
 
 # Description of project:
 Sentinel API is a security simulator that tests and verifies third-party APIs before deployment. It runs APIs in a controlled environment to detect bugs, vulnerabilities, and suspicious activities. By ensuring only secure APIs go live, Sentinel API reduces risks of data breaches, fraud, and unauthorised access — enabling faster, safer, and more reliable integrations.
@@ -82,4 +82,4 @@ IBM-Z provided a powerful and secure environment for developing and testing the 
 https://user-images.githubusercontent.com/64836894/134806280-9133cd2c-5aee-4b22-b59e-2182dfc2479d.mp4
 
 # Conclusion :
-
+The Sentinel API guarantees the secure deployment of third-party APIs by detecting vulnerabilities through advanced simulations and machine learning techniques.Leveraging the power of IBM-Z, it provides rapid, scalable, and dependable security validation.This strengthens user trust and protects organizations from API-related threats effectively.
