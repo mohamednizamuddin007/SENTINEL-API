@@ -34,25 +34,25 @@ IBM-Z provided a powerful and secure environment for developing and testing the 
 
 # This repository contains the source code of the project work from the past 24 hours.
 
-## Data Preprocessing & Feature Extraction:**
+## Data Preprocessing & Feature Extraction:
 
 1. API URLs are decomposed into subdomain, domain, and path components for granular analysis.
 
 2. Normalisation and tokenization are applied to extract meaningful patterns.
 
-## Descriptive & Exploratory Analysis:**
+## Descriptive & Exploratory Analysis:
 
 1. Statistical and behavioural summaries of benign vs. malicious APIs.
 
 2. Visualisation of API patterns and distribution across threat levels.
 
-## Model Training & Evaluation:**
+## Model Training & Evaluation:
 
 1. Multiple classification algorithms are trained to detect malicious APIs.
 
 2. Model performance is evaluated using accuracy, precision, recall, and F1-score.
 
-## Frontend Integration:**
+## Frontend Integration:
 
 1. The trained model is connected to a frontend interface where users can paste an API URL.
 
