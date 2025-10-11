@@ -70,10 +70,14 @@ IBM-Z provided a powerful and secure environment for developing and testing the 
 
 <img width="1919" height="969" alt="Screenshot 2025-10-11 230355 1" src="https://github.com/user-attachments/assets/d8cf949c-6cef-4910-9812-506f6e3e5708" />
 
-![WhatsApp Image 2025-10-11 at 23 17 16_f5128531](https://github.com/user-attachments/assets/e1f2d1d3-0015-472e-a4b5-c230993b0077)
-![WhatsApp Image 2025-10-11 at 23 17 44_401ca9f7](https://github.com/user-attachments/assets/6d30ea5d-08ab-4561-b052-5517a45f767b)
+![WhatsApp Image 2025-10-12 at 02 19 41_a083f49a](https://github.com/user-attachments/assets/289cee7b-7f78-492e-82b6-037154ed2bfe)
 
-![WhatsApp Image 2025-10-11 at 23 16 26_1969561d](https://github.com/user-attachments/assets/c38a8aa3-00f2-46db-846e-ed4d440e9884)
+
+![WhatsApp Image 2025-10-12 at 02 20 42_8dc00217](https://github.com/user-attachments/assets/d805ad4c-f53a-49de-af9a-303fa8c82702)
+
+
+![WhatsApp Image 2025-10-12 at 02 13 56_bb7fb90c](https://github.com/user-attachments/assets/3fb4be63-0b30-4e53-8e77-c3304a8d8688)
+
 
 # Video Explanation for the project:
 
