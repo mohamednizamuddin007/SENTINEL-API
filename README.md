@@ -19,8 +19,7 @@ Instead of focusing on the safety of their users, most teams concentrate on fast
 
 
 ## Data set:
-We have gathered a dataset built by augmenting datasets of rainfall, climate and fertilizer data available from github. we hope this gives us a better idea of the trends of crops considering different environmental and geographical factors.
-
+Since no public dataset exists for malicious API URLs, we enhanced existing malicious URL datasets by transforming them into API-like patterns to simulate realistic API traffic. This allows our model — API Sentinel — to accurately detect malicious API endpoints based on learned domain and path features.
  
 ## Solution:
 We have come up with a model of a simulator that serves as a point of verification for APIs before they are implemented in the market. The process will be that APIs are not directly integrated but first, they are introduced in a controlled environment in which their behavior, requests, and responses are monitored. The simulator looks for bugs, unusual activities, and security vulnerabilities among other things, and therefore, only safe APIs pass the checkpoint.
@@ -35,24 +34,31 @@ IBM-Z provided a powerful and secure environment for developing and testing the 
 
 
 
-### This repository contains the source code of the project work from past 24 hours.
-The Jupyter Notebook contains:
+## This repository contains the source code of the project work from past 24 hours.
 
-1. Descriptive Analysis of the Agriculture Data.
-    i)checking summary of crops such as average of various parameters.
-    ii)summary statistics of indivisual crop. using Interactive function to choose.
-    iii)Average requirnment for each crop with given conditions.
+**Data Preprocessing & Feature Extraction:**
 
-2. Analysis of different agcriculture
-    i)conditions using disc plot
+1.API URLs are decomposed into subdomain, domain, and path components for granular analysis.
 
-3. categories the crop based on season clustering similar kind of crops
-    using hard and soft clustering techniques.
+2.Normalization and tokenization are applied to extract meaningful patterns.
 
-4. Finding out any hiding Patterns in the Dataset.
+**Descriptive & Exploratory Analysis:**
 
-5. Predictive Modeling.
+1.Statistical and behavioral summaries of benign vs. malicious APIs.
 
+2.Visualization of API patterns and distribution across threat levels.
+
+**Model Training & Evaluation:**
+
+1.Multiple classification algorithms are trained to detect malicious APIs.
+
+2.Model performance is evaluated using accuracy, precision, recall, and F1-score.
+
+**Frontend Integration:**
+
+1.The trained model is connected to a frontend interface where users can paste an API URL.
+
+2.The system instantly predicts whether the API is safe or malicious, providing a real-time security check.
 
 
 
