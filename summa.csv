@@ -1,0 +1,17 @@
+url,Type,api_subdomain,api_pathprefix
+https://docs.google.com/presentation/d/e/2PACX-1vTVj7OXwAUKJDv57jBmVg8eWFIUvTQ3c0-F1gPD_G5CwsQzOf3aelTqo4q42FIlqbHODnIlx2-Lx3Cf/pub?start=false&loop=false&delayms=3000&slide=id.p,Phishing,https://api.docs.google.com/v1/presentation/d/e/2PACX-1vTVj7OXwAUKJDv57jBmVg8eWFIUvTQ3c0-F1gPD_G5CwsQzOf3aelTqo4q42FIlqbHODnIlx2-Lx3Cf/pub?start=false&loop=false&delayms=3000&slide=id.p&api_key=REPLACE_ME,https://docs.google.com/api/v1/presentation/d/e/2PACX-1vTVj7OXwAUKJDv57jBmVg8eWFIUvTQ3c0-F1gPD_G5CwsQzOf3aelTqo4q42FIlqbHODnIlx2-Lx3Cf/pub?start=false&loop=false&delayms=3000&slide=id.p&api_key=REPLACE_ME
+https://btttelecommunniccatiion.weeblysite.com/,Phishing,https://api.btttelecommunniccatiion.weeblysite.com/v1/?api_key=REPLACE_ME,https://btttelecommunniccatiion.weeblysite.com/api/v1/?api_key=REPLACE_ME
+https://kq0hgp.webwave.dev/,Phishing,https://api.kq0hgp.webwave.dev/v1/?api_key=REPLACE_ME,https://kq0hgp.webwave.dev/api/v1/?api_key=REPLACE_ME
+https://brittishtele1bt-69836.getresponsesite.com/,Phishing,https://api.brittishtele1bt-69836.getresponsesite.com/v1/?api_key=REPLACE_ME,https://brittishtele1bt-69836.getresponsesite.com/api/v1/?api_key=REPLACE_ME
+https://bt-internet-105056.weeblysite.com/,Phishing,https://api.bt-internet-105056.weeblysite.com/v1/?api_key=REPLACE_ME,https://bt-internet-105056.weeblysite.com/api/v1/?api_key=REPLACE_ME
+https://teleej.weebly.com/,Phishing,https://api.teleej.weebly.com/v1/?api_key=REPLACE_ME,https://teleej.weebly.com/api/v1/?api_key=REPLACE_ME
+https://maryleyshon.wixsite.com/my-site-1,Phishing,https://api.maryleyshon.wixsite.com/v1/my-site-1?api_key=REPLACE_ME,https://maryleyshon.wixsite.com/api/v1/my-site-1?api_key=REPLACE_ME
+https://chamakhman.wixsite.com/my-site-4,Phishing,https://api.chamakhman.wixsite.com/v1/my-site-4?api_key=REPLACE_ME,https://chamakhman.wixsite.com/api/v1/my-site-4?api_key=REPLACE_ME
+https://posts-ch.buzz/ch/,Phishing,https://api.posts-ch.buzz/v1/ch/?api_key=REPLACE_ME,https://posts-ch.buzz/api/v1/ch/?api_key=REPLACE_ME
+https://api.github.com/users/octocat,Safe,https://api.github.com/v1/users/octocat,https://github.com/api/v1/users/octocat
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=demo,Safe,https://api.openweathermap.org/v1/data/2.5/weather?q=London&appid=demo,https://openweathermap.org/api/v1/weather?q=London&appid=demo
+https://api.spacexdata.com/v4/launches/latest,Safe,https://api.spacexdata.com/v1/launches/latest,https://spacexdata.com/api/v1/launches/latest
+https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY,Safe,https://api.nasa.gov/v1/planetary/apod?api_key=DEMO_KEY,https://nasa.gov/api/v1/planetary/apod?api_key=DEMO_KEY
+https://api.coindesk.com/v1/bpi/currentprice.json,Safe,https://api.coindesk.com/v1/bpi/currentprice.json,https://coindesk.com/api/v1/bpi/currentprice.json
+https://api.spotify.com/v1/albums/382ObEPsp2rxGrnsizN5TX,Safe,https://api.spotify.com/v1/albums/382ObEPsp2rxGrnsizN5TX,https://spotify.com/api/v1/albums/382ObEPsp2rxGrnsizN5TX
+https://api.twitter.com/2/tweets/sample/stream,Safe,https://api.twitter.com/v1/tweets/sample/stream,https://twitter.com/api/v1/tweets/sample/stream
