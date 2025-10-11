@@ -4,12 +4,6 @@
 # Description of project:
 Sentinel API is a security simulator that tests and verifies third-party APIs before deployment. It runs APIs in a controlled environment to detect bugs, vulnerabilities, and suspicious activities. By ensuring only secure APIs go live, Sentinel API reduces risks of data breaches, fraud, and unauthorised access — enabling faster, safer, and more reliable integrations.
 
-
-# Mind Map:
-
-![WhatsApp Image 2025-09-27 at 09 57 30_26e53010](https://github.com/user-attachments/assets/eaab8efc-55da-4013-a7b0-56ea3b988461)
-
-
 # Problem Statement:
 Industries such as finance, e-commerce, education, government, and healthcare now depend heavily on third-party APIs to deliver seamless services and encourage innovation. While APIs make it easier for organizations to collaborate and boost efficiency, they also introduce serious risks. If an API is compromised by malware, logic errors, or poor integration, it can lead to cyberattacks that impact both organizations and their users.
 
@@ -26,6 +20,10 @@ We have come up with a model of a simulator that serves as a point of verificati
 
 Such a methodology lowers the chances of fraud, leakage of data, and unauthorized access of which trust among users is the positive outcome. Organizations can make the deployments quicker and safer, while the users are protected from the latent threats. Our solution, by early API verification, establishes a harmony between technology and safety all over the globe.
 
+
+# Mind Map:
+
+![WhatsApp Image 2025-09-27 at 09 57 30_26e53010](https://github.com/user-attachments/assets/eaab8efc-55da-4013-a7b0-56ea3b988461)
 
 # Leveraging the IBM-Z technology for the solution:
 
