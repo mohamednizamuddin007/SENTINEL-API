@@ -82,10 +82,7 @@ IBM-Z provided a powerful and secure environment for developing and testing the 
 # Video Explanation for the project:
 
 
-https://github.com/user-attachments/assets/2f971fe0-28b7-45d3-b3db-03e8b5a51395
-
-
 
 
 # Conclusion :
-The Sentinel API guarantees the secure deployment of third-party APIs by detecting vulnerabilities through advanced simulations and machine learning techniques.Leveraging the power of IBM-Z, it provides rapid, scalable, and dependable security validation.This strengthens the user trust and protects organizations from API-related threats effectively.
+The Sentinel API guarantees the secure deployment of third-party APIs by detecting vulnerabilities through advanced simulations and machine learning techniques.Leveraging the power of IBM-Z, it provides rapid, scalable, and dependable security validation. This strengthens the user trust and protects organizations from API-related threats effectively.
