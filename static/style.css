@@ -1,11 +1,11 @@
-/* ---------- Global ---------- */
+
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
   color: #fff;
 }
 
-/* ---------- Landing Page ---------- */
+
 .landing-bg {
   background: radial-gradient(circle at top, #03142b, #000814);
   height: 100vh;
